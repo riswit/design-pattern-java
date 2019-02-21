@@ -26,7 +26,7 @@ public class AbstractFactoryPatternDemo {
         //call draw method of Shape Rectangle
         shape3.draw();
 
-        //get an object of Shape Square
+        //get an object of Shape   Square
         Shape shape4 = shapeFactory1.getShape("SQUARE");
 
         //call draw method of Shape Square
