@@ -12,6 +12,7 @@
     <modules>
         <module>abstract-factory</module>
         <module>bundler</module>
+        <module>factorypattern</module>
     </modules>
 
     <properties>

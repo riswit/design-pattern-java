@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="abstractfactory" />
         <module name="bundler" />
+        <module name="factorypattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
