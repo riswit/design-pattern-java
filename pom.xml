@@ -18,18 +18,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <artemis-jms-client.version>1.5.5</artemis-jms-client.version>
         <spring-framework.version>5.0.9.RELEASE</spring-framework.version>
         <junit.jupiter.version>5.3.1</junit.jupiter.version>
         <maven-compiler-plugin.configuration.source>1.8</maven-compiler-plugin.configuration.source>
         <maven-compiler-plugin.configuration.target>1.8</maven-compiler-plugin.configuration.target>
-        <HikariCP.version>3.1.0</HikariCP.version>
-        <hibernate.version>5.0.12.Final</hibernate.version>
-        <wsdl4j.version>1.6.3</wsdl4j.version>
-        <cxf-xjc-runtime.version>3.2.2</cxf-xjc-runtime.version>
         <jackson.version>2.9.6</jackson.version>
         <spring-ws.version>3.0.4.RELEASE</spring-ws.version>
-        <slf4j.version>1.7.25</slf4j.version>
     </properties>
 
     <build>
