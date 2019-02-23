@@ -16,6 +16,7 @@
         <module>abstractfactory</module>
         <module>factorypattern</module>
         <module>singleton</module>
+        <module>builderpattern</module>
     </modules>
 
 </project>
