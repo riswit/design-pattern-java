@@ -2,9 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/abstract-factory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/behavioral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bundler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/abstractfactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/abstractfactoryold" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/factorypattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/singleton" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creationals" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factorypattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singleton" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structurals" charset="UTF-8" />
   </component>
 </project>

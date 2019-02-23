@@ -10,13 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bundler</artifactId>
-    <name>DPT :: BUNDLER</name>
     <packaging>ear</packaging>
 
     <dependencies>
         <dependency>
             <groupId>com.riswit.dpt</groupId>
-            <artifactId>abstract-factory</artifactId>
+            <artifactId>abstractfactory</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
@@ -46,9 +45,9 @@
                     <modules>
                         <webModule>
                             <groupId>com.riswit.dpt</groupId>
-                            <artifactId>abstract-factory</artifactId>
-                            <bundleFileName>abstract-factory.war</bundleFileName>
-                            <contextRoot>/abstract-factory</contextRoot>
+                            <artifactId>abstractfactory</artifactId>
+                            <bundleFileName>abstractfactory.war</bundleFileName>
+                            <contextRoot>/abstractfactory</contextRoot>
                         </webModule>
                         <webModule>
                             <groupId>com.riswit.dpt</groupId>

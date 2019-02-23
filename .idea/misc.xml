@@ -10,6 +10,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/bundler/pom.xml" />
+        <option value="$PROJECT_DIR$/creationals/pom.xml" />
+        <option value="$PROJECT_DIR$/structurals/pom.xml" />
       </set>
     </option>
   </component>
