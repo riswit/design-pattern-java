@@ -1,4 +1,4 @@
-package com.riswit.dpt.creational.abstractfactory;
+package com.riswit.dpt.abstractfactory;
 
 public class RoundedSquare implements Shape {
     @Override

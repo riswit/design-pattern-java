@@ -1,4 +1,4 @@
-package com.riswit.dpt.creational.factorypattern;
+package com.riswit.dpt.factorypattern;
 
 public class ShapeFactory {
 

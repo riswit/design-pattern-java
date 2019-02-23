@@ -1,4 +1,4 @@
-package com.riswit.dpt.creational.abstractfactory;
+package com.riswit.dpt.factorypattern;
 
 public class Square implements Shape {
     @Override

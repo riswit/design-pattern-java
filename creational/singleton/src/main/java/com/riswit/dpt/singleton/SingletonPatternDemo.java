@@ -1,4 +1,4 @@
-package com.riswit.dpt.creational.singleton;
+package com.riswit.dpt.singleton;
 
 public class SingletonPatternDemo {
     public static void main(String[] args) {
