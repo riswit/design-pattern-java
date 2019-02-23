@@ -10,6 +10,7 @@
         <module name="builderpattern" />
         <module name="bundler" />
         <module name="factorypattern" />
+        <module name="prototype" />
         <module name="singleton" />
       </profile>
     </annotationProcessing>

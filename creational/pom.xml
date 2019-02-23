@@ -17,6 +17,7 @@
         <module>factorypattern</module>
         <module>singleton</module>
         <module>builderpattern</module>
+        <module>prototype</module>
     </modules>
 
 </project>
