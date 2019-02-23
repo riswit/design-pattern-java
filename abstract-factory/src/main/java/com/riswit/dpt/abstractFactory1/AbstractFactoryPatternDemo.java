@@ -1,4 +1,4 @@
-package abstractFactory1;
+package com.riswit.dpt.abstractFactory1;
 
 public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {

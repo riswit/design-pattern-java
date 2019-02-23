@@ -1,4 +1,4 @@
-package abstractFactory1;
+package com.riswit.dpt.factoryPattern;
 
 public class Rectangle implements Shape {
     @Override

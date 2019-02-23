@@ -1,4 +1,4 @@
-package factoryPattern;
+package com.riswit.dpt.factoryPattern;
 
 public class Circle implements Shape {
 

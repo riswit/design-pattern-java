@@ -1,12 +1,12 @@
-package abstractFactory1;
+package com.riswit.dpt.abstractFactory1;
 
-public class ShapeFactory extends AbstractFactory {
+public class RoundedShapeFactory extends AbstractFactory {
     @Override
     public Shape getShape(String shapeType){
         if(shapeType.equalsIgnoreCase("RECTANGLE")){
-            return new Rectangle();
+            return new RoundedRectangle();
         }else if(shapeType.equalsIgnoreCase("SQUARE")){
-            return new Square();
+            return new RoundedSquare();
         }
         return null;
     }
