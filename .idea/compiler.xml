@@ -9,6 +9,7 @@
         <module name="abstractfactory" />
         <module name="bundler" />
         <module name="factorypattern" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
