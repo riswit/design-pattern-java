@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>abstractfactory</artifactId>
+    <name>DESIGN-PATTERN-TUTORIALS :: CREATIONAL :: ABSTRACTFACTORY</name>
     <packaging>war</packaging>
 
     <build>

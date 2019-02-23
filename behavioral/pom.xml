@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>behavioral</artifactId>
+    <name>DESIGN-PATTERN-TUTORIALS :: BEHAVIORAL</name>
     <packaging>pom</packaging>
 
 </project>
