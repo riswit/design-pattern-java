@@ -26,6 +26,7 @@
         <maven-compiler-plugin.configuration.target>1.8</maven-compiler-plugin.configuration.target>
         <jackson.version>2.9.6</jackson.version>
         <spring-ws.version>3.0.4.RELEASE</spring-ws.version>
+        <slf4j.version>1.7.25</slf4j.version>
     </properties>
 
     <build>
