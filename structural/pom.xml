@@ -11,6 +11,9 @@
 
     <artifactId>structural</artifactId>
     <name>DESIGN-PATTERN-TUTORIALS :: STRUCTURAL</name>
+    <modules>
+        <module>adapter</module>
+    </modules>
     <packaging>pom</packaging>
 
 </project>
