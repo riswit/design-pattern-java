@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="abstractfactory" />
         <module name="adapter" />
+        <module name="bridge" />
         <module name="builderpattern" />
         <module name="bundler" />
         <module name="factorypattern" />

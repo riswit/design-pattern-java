@@ -11,9 +11,10 @@
 
     <artifactId>structural</artifactId>
     <name>DESIGN-PATTERN-TUTORIALS :: STRUCTURAL</name>
+    <packaging>pom</packaging>
     <modules>
         <module>adapter</module>
+        <module>bridge</module>
     </modules>
-    <packaging>pom</packaging>
 
 </project>
