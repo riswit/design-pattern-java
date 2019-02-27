@@ -12,6 +12,7 @@
         <module name="builderpattern" />
         <module name="bundler" />
         <module name="factorypattern" />
+        <module name="filter" />
         <module name="prototype" />
         <module name="singleton" />
       </profile>
