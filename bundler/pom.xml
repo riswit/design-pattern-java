@@ -61,6 +61,18 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>composite</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>decorator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -120,6 +132,18 @@
                             <artifactId>filter</artifactId>
                             <bundleFileName>filter.war</bundleFileName>
                             <contextRoot>/filter</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>composite</artifactId>
+                            <bundleFileName>composite.war</bundleFileName>
+                            <contextRoot>/composite</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>decorator</artifactId>
+                            <bundleFileName>decorator.war</bundleFileName>
+                            <contextRoot>/decorator</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>

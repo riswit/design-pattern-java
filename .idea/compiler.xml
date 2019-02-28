@@ -11,6 +11,8 @@
         <module name="bridge" />
         <module name="builderpattern" />
         <module name="bundler" />
+        <module name="composite" />
+        <module name="decorator" />
         <module name="factorypattern" />
         <module name="filter" />
         <module name="prototype" />
