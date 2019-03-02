@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/behavioral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bundler" charset="UTF-8" />
@@ -18,5 +18,6 @@
     <file url="file://$PROJECT_DIR$/structural/facade" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structural/filter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structural/flyweight" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/proxy" charset="UTF-8" />
   </component>
 </project>

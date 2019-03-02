@@ -18,6 +18,7 @@
         <module name="filter" />
         <module name="flyweight" />
         <module name="prototype" />
+        <module name="proxy" />
         <module name="singleton" />
       </profile>
     </annotationProcessing>

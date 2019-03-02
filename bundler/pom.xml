@@ -85,6 +85,13 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>proxy</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -168,6 +175,12 @@
                             <artifactId>flyweight</artifactId>
                             <bundleFileName>flyweight.war</bundleFileName>
                             <contextRoot>/flyweight</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>proxy</artifactId>
+                            <bundleFileName>proxy.war</bundleFileName>
+                            <contextRoot>/proxy</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>
