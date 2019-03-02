@@ -11,6 +11,7 @@
         <module name="bridge" />
         <module name="builderpattern" />
         <module name="bundler" />
+        <module name="ChainOfResponsibility" />
         <module name="composite" />
         <module name="decorator" />
         <module name="facade" />

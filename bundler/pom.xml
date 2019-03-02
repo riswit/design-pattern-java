@@ -91,6 +91,12 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>ChainOfResponsibility</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
 
     </dependencies>
 
@@ -181,6 +187,12 @@
                             <artifactId>proxy</artifactId>
                             <bundleFileName>proxy.war</bundleFileName>
                             <contextRoot>/proxy</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>ChainOfResponsibility</artifactId>
+                            <bundleFileName>ChainOfResponsibility.war</bundleFileName>
+                            <contextRoot>/ChainOfResponsibility</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>
