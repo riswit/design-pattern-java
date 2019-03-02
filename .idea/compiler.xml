@@ -13,8 +13,10 @@
         <module name="bundler" />
         <module name="composite" />
         <module name="decorator" />
+        <module name="facade" />
         <module name="factorypattern" />
         <module name="filter" />
+        <module name="flyweight" />
         <module name="prototype" />
         <module name="singleton" />
       </profile>

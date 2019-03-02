@@ -73,6 +73,18 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>facade</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>flyweight</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -144,6 +156,18 @@
                             <artifactId>decorator</artifactId>
                             <bundleFileName>decorator.war</bundleFileName>
                             <contextRoot>/decorator</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>facade</artifactId>
+                            <bundleFileName>facade.war</bundleFileName>
+                            <contextRoot>/facade</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>flyweight</artifactId>
+                            <bundleFileName>flyweight.war</bundleFileName>
+                            <contextRoot>/flyweight</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>
