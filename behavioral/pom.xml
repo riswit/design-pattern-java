@@ -11,9 +11,10 @@
 
     <artifactId>behavioral</artifactId>
     <name>DESIGN-PATTERN-TUTORIALS :: BEHAVIORAL</name>
+    <packaging>pom</packaging>
     <modules>
         <module>ChainOfResponsibility</module>
+        <module>command</module>
     </modules>
-    <packaging>pom</packaging>
 
 </project>

@@ -12,6 +12,7 @@
         <module name="builderpattern" />
         <module name="bundler" />
         <module name="ChainOfResponsibility" />
+        <module name="command" />
         <module name="composite" />
         <module name="decorator" />
         <module name="facade" />
