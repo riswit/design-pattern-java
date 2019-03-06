@@ -19,6 +19,7 @@
         <module name="factorypattern" />
         <module name="filter" />
         <module name="flyweight" />
+        <module name="interpreter" />
         <module name="prototype" />
         <module name="proxy" />
         <module name="singleton" />

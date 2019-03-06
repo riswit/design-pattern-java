@@ -15,6 +15,7 @@
     <modules>
         <module>ChainOfResponsibility</module>
         <module>command</module>
+        <module>interpreter</module>
     </modules>
 
 </project>

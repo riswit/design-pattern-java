@@ -103,6 +103,12 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>interpreter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
 
     </dependencies>
 
@@ -205,6 +211,12 @@
                             <artifactId>command</artifactId>
                             <bundleFileName>command.war</bundleFileName>
                             <contextRoot>/command</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>interpreter</artifactId>
+                            <bundleFileName>interpreter.war</bundleFileName>
+                            <contextRoot>/interpreter</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>
