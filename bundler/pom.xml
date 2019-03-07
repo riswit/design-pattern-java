@@ -115,6 +115,12 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>mediator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
 
     </dependencies>
 
@@ -229,6 +235,12 @@
                             <artifactId>iterator</artifactId>
                             <bundleFileName>iterator.war</bundleFileName>
                             <contextRoot>/iterator</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>mediator</artifactId>
+                            <bundleFileName>mediator.war</bundleFileName>
+                            <contextRoot>/mediator</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>

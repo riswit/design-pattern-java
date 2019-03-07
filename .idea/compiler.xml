@@ -21,6 +21,7 @@
         <module name="flyweight" />
         <module name="interpreter" />
         <module name="iterator" />
+        <module name="mediator" />
         <module name="prototype" />
         <module name="proxy" />
         <module name="singleton" />
