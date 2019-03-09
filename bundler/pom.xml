@@ -121,6 +121,12 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>memento</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
 
     </dependencies>
 
@@ -241,6 +247,12 @@
                             <artifactId>mediator</artifactId>
                             <bundleFileName>mediator.war</bundleFileName>
                             <contextRoot>/mediator</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>memento</artifactId>
+                            <bundleFileName>memento.war</bundleFileName>
+                            <contextRoot>/memento</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>
