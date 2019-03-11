@@ -27,6 +27,7 @@
         <module name="prototype" />
         <module name="proxy" />
         <module name="singleton" />
+        <module name="state" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

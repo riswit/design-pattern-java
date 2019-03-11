@@ -133,6 +133,12 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>state</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
 
     </dependencies>
 
@@ -265,6 +271,12 @@
                             <artifactId>observer</artifactId>
                             <bundleFileName>observer.war</bundleFileName>
                             <contextRoot>/observer</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>state</artifactId>
+                            <bundleFileName>state.war</bundleFileName>
+                            <contextRoot>/state</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>
