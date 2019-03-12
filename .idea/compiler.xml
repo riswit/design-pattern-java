@@ -23,6 +23,7 @@
         <module name="iterator" />
         <module name="mediator" />
         <module name="memento" />
+        <module name="null-object" />
         <module name="observer" />
         <module name="prototype" />
         <module name="proxy" />

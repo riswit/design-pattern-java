@@ -14,4 +14,11 @@ public class Context {
     public State getState() {
         return state;
     }
+
+    @Override
+    public String toString() {
+        return "Context{" +
+                "state=" + state +
+                '}';
+    }
 }
