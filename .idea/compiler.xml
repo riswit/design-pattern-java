@@ -29,6 +29,7 @@
         <module name="proxy" />
         <module name="singleton" />
         <module name="state" />
+        <module name="strategy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
