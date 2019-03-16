@@ -11,6 +11,7 @@
         <module name="bridge" />
         <module name="builderpattern" />
         <module name="bundler" />
+        <module name="business-delegate" />
         <module name="ChainOfResponsibility" />
         <module name="command" />
         <module name="composite" />
