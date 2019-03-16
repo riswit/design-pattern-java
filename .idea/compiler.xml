@@ -31,6 +31,7 @@
         <module name="state" />
         <module name="strategy" />
         <module name="template" />
+        <module name="visitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
