@@ -13,6 +13,7 @@
         <module>creational</module>
         <module>structural</module>
         <module>behavioral</module>
+        <module>other</module>
         <module>bundler</module>
     </modules>
 
