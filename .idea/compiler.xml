@@ -15,6 +15,7 @@
         <module name="ChainOfResponsibility" />
         <module name="command" />
         <module name="composite" />
+        <module name="composite-entity" />
         <module name="decorator" />
         <module name="facade" />
         <module name="factorypattern" />
