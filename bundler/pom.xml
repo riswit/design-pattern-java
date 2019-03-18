@@ -181,6 +181,12 @@
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        <dependency>
+            <groupId>com.riswit.dpt</groupId>
+            <artifactId>data-access-object</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
 
     </dependencies>
 
@@ -361,6 +367,12 @@
                             <artifactId>composite-entity</artifactId>
                             <bundleFileName>composite_entity.war</bundleFileName>
                             <contextRoot>/composite-entity</contextRoot>
+                        </webModule>
+                        <webModule>
+                            <groupId>com.riswit.dpt</groupId>
+                            <artifactId>data-access-object</artifactId>
+                            <bundleFileName>data_access_object.war</bundleFileName>
+                            <contextRoot>/data-access-object</contextRoot>
                         </webModule>
                     </modules>
                     <jboss>

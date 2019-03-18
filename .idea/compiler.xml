@@ -16,6 +16,7 @@
         <module name="command" />
         <module name="composite" />
         <module name="composite-entity" />
+        <module name="data-access-object" />
         <module name="decorator" />
         <module name="facade" />
         <module name="factorypattern" />
