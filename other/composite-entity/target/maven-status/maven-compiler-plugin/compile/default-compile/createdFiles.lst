@@ -1,0 +1,6 @@
+com\riswit\dpt\composite_entity\Client.class
+com\riswit\dpt\composite_entity\CoarseGrainedObject.class
+com\riswit\dpt\composite_entity\CompositeEntity.class
+com\riswit\dpt\composite_entity\CompositeEntityPatternDemo.class
+com\riswit\dpt\composite_entity\DependentObject1.class
+com\riswit\dpt\composite_entity\DependentObject2.class

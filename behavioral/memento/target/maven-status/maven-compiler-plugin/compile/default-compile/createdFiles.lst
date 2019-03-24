@@ -1,0 +1,4 @@
+com\riswit\dpt\memento\Memento.class
+com\riswit\dpt\memento\Originator.class
+com\riswit\dpt\memento\CareTaker.class
+com\riswit\dpt\memento\MementoPatternDemo.class

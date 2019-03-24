@@ -1,0 +1,5 @@
+com\riswit\dpt\null_object\CustomerFactory.class
+com\riswit\dpt\null_object\AbstractCustomer.class
+com\riswit\dpt\null_object\RealCustomer.class
+com\riswit\dpt\null_object\NullPatternDemo.class
+com\riswit\dpt\null_object\NullCustomer.class

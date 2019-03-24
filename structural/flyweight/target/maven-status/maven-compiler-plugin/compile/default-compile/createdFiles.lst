@@ -1,0 +1,4 @@
+com\riswit\dpt\flyweight\ShapeFactory.class
+com\riswit\dpt\flyweight\Circle.class
+com\riswit\dpt\flyweight\FlyweightPatternDemo.class
+com\riswit\dpt\flyweight\Shape.class

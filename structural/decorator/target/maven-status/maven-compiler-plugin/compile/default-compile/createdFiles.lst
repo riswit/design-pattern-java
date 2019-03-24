@@ -1,0 +1,6 @@
+com\riswit\dpt\decorator\RedShapeDecorator.class
+com\riswit\dpt\decorator\ShapeDecorator.class
+com\riswit\dpt\decorator\Rectangle.class
+com\riswit\dpt\decorator\Circle.class
+com\riswit\dpt\decorator\DecoratorPatternDemo.class
+com\riswit\dpt\decorator\Shape.class

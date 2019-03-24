@@ -1,0 +1,6 @@
+com\riswit\dpt\factorypattern\FactoryPatternDemo.class
+com\riswit\dpt\factorypattern\Shape.class
+com\riswit\dpt\factorypattern\ShapeFactory.class
+com\riswit\dpt\factorypattern\Circle.class
+com\riswit\dpt\factorypattern\Rectangle.class
+com\riswit\dpt\factorypattern\Square.class

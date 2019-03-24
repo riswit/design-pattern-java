@@ -1,0 +1,8 @@
+com\riswit\dpt\filter\CriteriaFemale.class
+com\riswit\dpt\filter\CriteriaPatternDemo.class
+com\riswit\dpt\filter\CriteriaMale.class
+com\riswit\dpt\filter\AndCriteria.class
+com\riswit\dpt\filter\Person.class
+com\riswit\dpt\filter\CriteriaSingle.class
+com\riswit\dpt\filter\OrCriteria.class
+com\riswit\dpt\filter\Criteria.class

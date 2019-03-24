@@ -1,0 +1,4 @@
+com\riswit\dpt\proxy\Image.class
+com\riswit\dpt\proxy\ProxyImage.class
+com\riswit\dpt\proxy\ProxyPatternDemo.class
+com\riswit\dpt\proxy\RealImage.class

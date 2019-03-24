@@ -1,0 +1,7 @@
+com\riswit\dpt\adapter\MediaAdapter.class
+com\riswit\dpt\adapter\VlcPlayer.class
+com\riswit\dpt\adapter\MediaPlayer.class
+com\riswit\dpt\adapter\AdapterPatternDemo.class
+com\riswit\dpt\adapter\AudioPlayer.class
+com\riswit\dpt\adapter\AdvancedMediaPlayer.class
+com\riswit\dpt\adapter\Mp4Player.class

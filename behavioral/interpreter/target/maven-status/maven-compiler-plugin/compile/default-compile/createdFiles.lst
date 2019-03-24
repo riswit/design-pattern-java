@@ -1,0 +1,5 @@
+com\riswit\dpt\interpreter\TerminalExpression.class
+com\riswit\dpt\interpreter\Expression.class
+com\riswit\dpt\interpreter\InterpreterPatternDemo.class
+com\riswit\dpt\interpreter\AndExpression.class
+com\riswit\dpt\interpreter\OrExpression.class

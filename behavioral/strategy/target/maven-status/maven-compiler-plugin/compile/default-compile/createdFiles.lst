@@ -1,0 +1,6 @@
+com\riswit\dpt\strategy\Context.class
+com\riswit\dpt\strategy\OperationSubstract.class
+com\riswit\dpt\strategy\OperationAdd.class
+com\riswit\dpt\strategy\StrategyPatternDemo.class
+com\riswit\dpt\strategy\OperationMultiply.class
+com\riswit\dpt\strategy\Strategy.class

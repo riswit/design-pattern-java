@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df69c492-6a3a-497d-9389-2d691fc09f3c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/abstract-factory/target/" />
+    <ignored path="$PROJECT_DIR$/bundler/target/" />
+    <ignored path="$PROJECT_DIR$/factorypattern/target/" />
+    <ignored path="$PROJECT_DIR$/singleton/target/" />
+    <ignored path="$PROJECT_DIR$/creationals/target/" />
+    <ignored path="$PROJECT_DIR$/structurals/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/target/" />
+    <ignored path="$PROJECT_DIR$/creational/target/" />
+    <ignored path="$PROJECT_DIR$/structural/target/" />
+    <ignored path="$PROJECT_DIR$/creational/abstractfactory/target/" />
+    <ignored path="$PROJECT_DIR$/creational/factorypattern/target/" />
+    <ignored path="$PROJECT_DIR$/creational/singleton/target/" />
+    <ignored path="$PROJECT_DIR$/creational/builderpattern/target/" />
+    <ignored path="$PROJECT_DIR$/creational/prototype/target/" />
+    <ignored path="$PROJECT_DIR$/structural/adapter/target/" />
+    <ignored path="$PROJECT_DIR$/structural/bridge/target/" />
+    <ignored path="$PROJECT_DIR$/structural/filter/target/" />
+    <ignored path="$PROJECT_DIR$/structural/composite/target/" />
+    <ignored path="$PROJECT_DIR$/structural/decorator/target/" />
+    <ignored path="$PROJECT_DIR$/structural/facade/target/" />
+    <ignored path="$PROJECT_DIR$/structural/flyweight/target/" />
+    <ignored path="$PROJECT_DIR$/structural/proxy/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/ChainOfResponsibility/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/command/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/interpreter/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/iterator/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/mediator/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/memento/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/observer/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/state/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/null-object/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/strategy/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/template/target/" />
+    <ignored path="$PROJECT_DIR$/behavioral/visitor/target/" />
+    <ignored path="$PROJECT_DIR$/other/target/" />
+    <ignored path="$PROJECT_DIR$/other/mvc/target/" />
+    <ignored path="$PROJECT_DIR$/other/business-delegate/target/" />
+    <ignored path="$PROJECT_DIR$/other/composite-entity/target/" />
+    <ignored path="$PROJECT_DIR$/other/data-access-object/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>maven-compiler-plugin.configuration.source</find>
+      <find>dino</find>
+      <find>toString</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/riswit/dpt/strategy/OperationMultiply.java" />
+        <option value="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/riswit/dpt/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/riswit/dpt/strategy/StrategyPatternDemo.java" />
+        <option value="$PROJECT_DIR$/behavioral/template/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/info_template.md" />
+        <option value="$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/Game.java" />
+        <option value="$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/Cricket.java" />
+        <option value="$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/Football.java" />
+        <option value="$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/TemplatePatternDemo.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/pom.xml" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/info_visitor.md" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPart.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Keyboard.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Mouse.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Computer.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartVisitor.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartDisplayVisitor.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/VisitorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Monitor.java" />
+        <option value="$PROJECT_DIR$/other/pom.xml" />
+        <option value="$PROJECT_DIR$/other/mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/info_mvc.md" />
+        <option value="$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/Student.java" />
+        <option value="$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/StudentView.java" />
+        <option value="$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/StudentController.java" />
+        <option value="$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/MVCPatternDemo.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/info_business_delegate.md" />
+        <option value="$PROJECT_DIR$/other/business-delegate/pom.xml" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessService.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/EJBService.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/JMSService.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessLookUp.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegate.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/Client.java" />
+        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegatePatternDemo.java" />
+        <option value="$PROJECT_DIR$/other/composite-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/info_composite_entity.md" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/DependentObject1.java" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/DependentObject2.java" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/CoarseGrainedObject.java" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/CompositeEntity.java" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/Client.java" />
+        <option value="$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/CompositeEntityPatternDemo.java" />
+        <option value="$PROJECT_DIR$/other/data-access-object/pom.xml" />
+        <option value="$PROJECT_DIR$/bundler/pom.xml" />
+        <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/info_data_access_object.md" />
+        <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/Student.java" />
+        <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/StudentDao.java" />
+        <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/DaoPatternDemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/software/apache-maven-3.5.4-bin" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1856" />
+    <option name="height" value="1078" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="bundler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552942824566" />
+    <property name="last_opened_file_path" value="F:/Tutorials/grokonez/AngularCRUD/SpringRestMySQL/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\pattern\designpatterntutorials\creational\singleton\src\main\java\com\riswit\dpt\singleton" />
+      <recent name="F:\java\pattern\designpatterntutorials\creational\singleton" />
+      <recent name="F:\java\pattern\designpatterntutorials\creational" />
+      <recent name="F:\java\pattern\designpatterntutorials\structural" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factoryPattern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\pattern\designpatterntutorials\other\data-access-object\src\main\java\com\riswit\dpt\data_access_object" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\composite-entity\src\main\java\com\riswit\dpt\composite_entity" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\business-delegate\src\main\java\com\riswit\dpt\business_delegate" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\mvc\src\main\java\com\riswit\dpt\mvc" />
+      <recent name="F:\java\pattern\designpatterntutorials\behavioral\visitor\src\main\java\com\riswit\dpt\visitor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DaoPatternDemo">
+    <configuration name="BusinessDelegatePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.business_delegate.BusinessDelegatePatternDemo" />
+      <module name="business-delegate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riswit.dpt.business_delegate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompositeEntityPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.composite_entity.CompositeEntityPatternDemo" />
+      <module name="composite-entity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riswit.dpt.composite_entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.data_access_object.DaoPatternDemo" />
+      <module name="data-access-object" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riswit.dpt.data_access_object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MVCPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.mvc.MVCPatternDemo" />
+      <module name="mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riswit.dpt.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.visitor.VisitorPatternDemo" />
+      <module name="visitor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riswit.dpt.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.VisitorPatternDemo" />
+      <item itemvalue="Application.MVCPatternDemo" />
+      <item itemvalue="Application.BusinessDelegatePatternDemo" />
+      <item itemvalue="Application.CompositeEntityPatternDemo" />
+      <item itemvalue="Application.DaoPatternDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DaoPatternDemo" />
+        <item itemvalue="Application.CompositeEntityPatternDemo" />
+        <item itemvalue="Application.BusinessDelegatePatternDemo" />
+        <item itemvalue="Application.MVCPatternDemo" />
+        <item itemvalue="Application.VisitorPatternDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df69c492-6a3a-497d-9389-2d691fc09f3c" name="Default Changelist" comment="" />
+      <created>1550427602843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550427602843</updated>
+    </task>
+    <task id="LOCAL-00001" summary="primo commit">
+      <created>1550527495879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550527495879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primo commit">
+      <created>1550782236362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550782236362</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sec commit">
+      <created>1550784691598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550784691598</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tolta release non necessarie">
+      <created>1550860936060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550860936060</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Factory Pattern">
+      <created>1550876475378</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550876475378</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Factory Pattern - info">
+      <created>1550876641635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550876641635</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed and optimized packages">
+      <created>1550928775796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550928775796</updated>
+    </task>
+    <task id="LOCAL-00008" summary="singleton">
+      <created>1550929701510</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550929701510</updated>
+    </task>
+    <task id="LOCAL-00009" summary="structured with macro sectors">
+      <created>1550936897915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550936897915</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed creational">
+      <created>1550940286211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550940286211</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added name tag in pom">
+      <created>1550940781008</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550940781008</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added singleton 2">
+      <created>1550953612522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550953612522</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added builderpattern 1 and 2">
+      <created>1550958423369</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550958423369</updated>
+    </task>
+    <task id="LOCAL-00014" summary="builderpattern 2">
+      <created>1550959268428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550959268428</updated>
+    </task>
+    <task id="LOCAL-00015" summary="prototype pattern">
+      <created>1550962376881</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550962376881</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added test abstract factory">
+      <created>1551044177863</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551044177863</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adapter design pattern">
+      <created>1551124827195</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551124827195</updated>
+    </task>
+    <task id="LOCAL-00018" summary="bridge design pattern">
+      <created>1551214676289</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1551214676289</updated>
+    </task>
+    <task id="LOCAL-00019" summary="filter design pattern">
+      <created>1551302096432</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551302096432</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Compposite and decorator design pattern">
+      <created>1551387634159</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1551387634159</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Facade and Flyweight design pattern">
+      <created>1551530930205</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1551530930205</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Proxy design pattern">
+      <created>1551536446628</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551536446628</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Chain of responsibility design pattern">
+      <created>1551561463889</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1551561463889</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Command design pattern">
+      <created>1551728651608</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551728651608</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Interpreter design pattern">
+      <created>1551910614177</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551910614178</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Iterator design pattern">
+      <created>1551990736964</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1551990736965</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Mediator design pattern">
+      <created>1551992692998</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1551992692998</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Memento design pattern">
+      <created>1552089705539</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552089705539</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Observer design pattern">
+      <created>1552243591888</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552243591888</updated>
+    </task>
+    <task id="LOCAL-00030" summary="State design pattern">
+      <created>1552335962313</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552335962313</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Null-Object design pattern">
+      <created>1552423127943</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552423127943</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Strategy design pattern">
+      <created>1552591617716</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1552591617716</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Template design pattern">
+      <created>1552690072795</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1552690072796</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Visitor design pattern">
+      <created>1552696063993</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1552696063993</updated>
+    </task>
+    <task id="LOCAL-00035" summary="MVC pattern">
+      <created>1552748194256</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1552748194256</updated>
+    </task>
+    <task id="LOCAL-00036" summary="business delegate pattern">
+      <created>1552750499712</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1552750499712</updated>
+    </task>
+    <task id="LOCAL-00037" summary="composite entity pattern">
+      <created>1552853846118</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1552853846118</updated>
+    </task>
+    <task id="LOCAL-00038" summary="data access object pattern">
+      <created>1552935410137</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1552935410137</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AbstractFactoryPatternDemoTest_shouldReturnError - 2019.02.24 at 20h 20m 25s.xml">
+      <configuration name="AbstractFactoryPatternDemoTest.shouldReturnError" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1294" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28119937" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.50230414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3686636" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" show_stripe_button="false" weight="0.32872504" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39938557" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49675852" weight="0.40399384" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49675852" weight="0.3686636" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032415" side_tool="true" weight="0.40399384" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2974068" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.50230414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3686636" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32872504" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49837926" weight="0.40399384" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49675852" weight="0.3686636" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032415" side_tool="true" weight="0.50076807" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="builderpattern 2" />
+    <MESSAGE value="prototype pattern" />
+    <MESSAGE value="added test abstract factory" />
+    <MESSAGE value="adapter design pattern" />
+    <MESSAGE value="bridge design pattern" />
+    <MESSAGE value="filter design pattern" />
+    <MESSAGE value="Compposite and decorator design pattern" />
+    <MESSAGE value="Facade and Flyweight design pattern" />
+    <MESSAGE value="Proxy design pattern" />
+    <MESSAGE value="Chain of responsibility design pattern" />
+    <MESSAGE value="Command design pattern" />
+    <MESSAGE value="Interpreter design pattern" />
+    <MESSAGE value="Iterator design pattern" />
+    <MESSAGE value="Mediator design pattern" />
+    <MESSAGE value="Memento design pattern" />
+    <MESSAGE value="Observer design pattern" />
+    <MESSAGE value="State design pattern" />
+    <MESSAGE value="Null-Object design pattern" />
+    <MESSAGE value="Strategy design pattern" />
+    <MESSAGE value="Template design pattern" />
+    <MESSAGE value="Visitor design pattern" />
+    <MESSAGE value="MVC pattern" />
+    <MESSAGE value="business delegate pattern" />
+    <MESSAGE value="composite entity pattern" />
+    <MESSAGE value="data access object pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="data access object pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavioral/observer/src/main/java/com/riswit/dpt/observer/ObserverPatternDemo.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavioral/state/src/main/java/com/riswit/dpt/state/StatePatternDemo.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavioral/state/src/main/java/com/riswit/dpt/state/StatePatternDemo.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/behavioral/null-object/src/main/java/com/riswit/dpt/null_object/NullPatternDemo.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/behavioral/strategy/src/main/java/com/riswit/dpt/strategy/StrategyPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/strategy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/info_template.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/Cricket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/Football.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/TemplatePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/template/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/info_visitor.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/VisitorPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartDisplayVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="12" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavioral/visitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/info_mvc.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mvc/src/main/java/com/riswit/dpt/mvc/MVCPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/info_business_delegate.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/EJBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/JMSService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessLookUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegatePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/info_composite_entity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/DependentObject1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/DependentObject2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/CoarseGrainedObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/CompositeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/src/main/java/com/riswit/dpt/composite_entity/CompositeEntityPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/data-access-object/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/composite-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/info_data_access_object.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/DaoPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>composite-entity</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
