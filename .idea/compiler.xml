@@ -22,6 +22,7 @@
         <module name="factorypattern" />
         <module name="filter" />
         <module name="flyweight" />
+        <module name="front-controller" />
         <module name="interpreter" />
         <module name="iterator" />
         <module name="mediator" />

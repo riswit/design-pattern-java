@@ -175,5 +175,11 @@
       <context-root>/data-access-object</context-root>
     </web>
   </module>
+  <module>
+    <web>
+      <web-uri>front_controller.war</web-uri>
+      <context-root>/front-controller</context-root>
+    </web>
+  </module>
   <library-directory>lib/</library-directory>
 </application>
