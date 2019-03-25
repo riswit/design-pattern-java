@@ -1,48 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df69c492-6a3a-497d-9389-2d691fc09f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/other/front-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/Dispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontControllerPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/HomeView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/StudentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/info_front_controller.md" afterDir="false" />
+    <list default="true" id="df69c492-6a3a-497d-9389-2d691fc09f3c" name="Default Changelist" comment="front controller pattern">
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/DebugFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/InterceptingFilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/info_intercepting_filter.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/ChainOfResponsibility/target/ChainOfResponsibility-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/ChainOfResponsibility/target/ChainOfResponsibility-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/command/target/command-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/command/target/command-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/interpreter/target/interpreter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/interpreter/target/interpreter-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/iterator/target/iterator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/iterator/target/iterator-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/mediator/target/mediator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/mediator/target/mediator-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/memento/target/memento-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/memento/target/memento-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/null-object/target/null-object-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/null-object/target/null-object-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/observer/target/observer-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/observer/target/observer-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/state/target/state-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/state/target/state-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/strategy/target/strategy-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/strategy/target/strategy-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/template/target/template-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/template/target/template-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behavioral/visitor/target/visitor-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/visitor/target/visitor-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bundler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/AbstractFactoryPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/FactoryProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedRectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/ShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/AbstractFactoryPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/FactoryProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/RoundedRectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/RoundedShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/RoundedSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/ShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/classes/com/riswit/dpt/abstractfactory/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/TEST-com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/test-classes/com/riswit/dpt/abstractfactory/AbstractFactoryPatternDemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT.ear" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/ChainOfResponsibility.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/META-INF/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/META-INF/jboss-app.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/abstractfactory.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/adapter.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/bridge.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/builderpattern.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/business_delegate.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/command.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/composite.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/composite_entity.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/data_access_object.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/decorator.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/facade.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/factorypattern.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/filter.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/flyweight.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/interpreter.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/iterator.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/mediator.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/memento.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/mvc.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/null-object.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/observer.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/prototype.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/proxy.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/singleton.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/state.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/strategy.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/template.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/bundler-1.0-SNAPSHOT/visitor.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/jboss-app.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/META-INF/maven/com.riswit.dpt/ChainOfResponsibility/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/META-INF/maven/com.riswit.dpt/ChainOfResponsibility/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/WEB-INF/classes/com/riswit/dpt/ChainOfResponsibility/AbstractLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/WEB-INF/classes/com/riswit/dpt/ChainOfResponsibility/ChainPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/WEB-INF/classes/com/riswit/dpt/ChainOfResponsibility/ConsoleLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/WEB-INF/classes/com/riswit/dpt/ChainOfResponsibility/ErrorLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/ChainOfResponsibility.war/WEB-INF/classes/com/riswit/dpt/ChainOfResponsibility/FileLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/META-INF/maven/com.riswit.dpt/abstractfactory/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/META-INF/maven/com.riswit.dpt/abstractfactory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/AbstractFactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/abstractfactory.war/WEB-INF/classes/com/riswit/dpt/abstractfactory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/META-INF/maven/com.riswit.dpt/adapter/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/META-INF/maven/com.riswit.dpt/adapter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/AdapterPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/AdvancedMediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/AudioPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/MediaAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/MediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/Mp4Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/adapter.war/WEB-INF/classes/com/riswit/dpt/adapter/VlcPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/META-INF/maven/com.riswit.dpt/bridge/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/META-INF/maven/com.riswit.dpt/bridge/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/WEB-INF/classes/com/riswit/dpt/bridge/BridgePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/WEB-INF/classes/com/riswit/dpt/bridge/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/WEB-INF/classes/com/riswit/dpt/bridge/DrawAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/WEB-INF/classes/com/riswit/dpt/bridge/GreenCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/WEB-INF/classes/com/riswit/dpt/bridge/RedCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/bridge.war/WEB-INF/classes/com/riswit/dpt/bridge/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/META-INF/maven/com.riswit.dpt/builderpattern/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/META-INF/maven/com.riswit.dpt/builderpattern/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Bottle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/BuilderPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Burger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/ChickenBurger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Coke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/ColdDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Meal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/MealBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Packing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Pepsi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/VegBurger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern1/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern2/Computer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern2/Computer$ComputerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern2/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/builderpattern.war/WEB-INF/classes/com/riswit/dpt/builderpattern2/TestBuilderPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/META-INF/maven/com.riswit.dpt/business-delegate/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/META-INF/maven/com.riswit.dpt/business-delegate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/BusinessDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/BusinessDelegatePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/BusinessLookUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/BusinessService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/EJBService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/business_delegate.war/WEB-INF/classes/com/riswit/dpt/business_delegate/JMSService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/META-INF/maven/com.riswit.dpt/command/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/META-INF/maven/com.riswit.dpt/command/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/WEB-INF/classes/com/riswit/dpt/command/Broker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/WEB-INF/classes/com/riswit/dpt/command/BuyStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/WEB-INF/classes/com/riswit/dpt/command/CommandPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/WEB-INF/classes/com/riswit/dpt/command/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/WEB-INF/classes/com/riswit/dpt/command/SellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/command.war/WEB-INF/classes/com/riswit/dpt/command/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite.war/META-INF/maven/com.riswit.dpt/composite/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite.war/META-INF/maven/com.riswit.dpt/composite/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite.war/WEB-INF/classes/com/riswit/dpt/composite/CompositePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite.war/WEB-INF/classes/com/riswit/dpt/composite/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/META-INF/maven/com.riswit.dpt/composite-entity/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/META-INF/maven/com.riswit.dpt/composite-entity/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/WEB-INF/classes/com/riswit/dpt/composite_entity/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/WEB-INF/classes/com/riswit/dpt/composite_entity/CoarseGrainedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/WEB-INF/classes/com/riswit/dpt/composite_entity/CompositeEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/WEB-INF/classes/com/riswit/dpt/composite_entity/CompositeEntityPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/WEB-INF/classes/com/riswit/dpt/composite_entity/DependentObject1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/composite_entity.war/WEB-INF/classes/com/riswit/dpt/composite_entity/DependentObject2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/META-INF/maven/com.riswit.dpt/data-access-object/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/META-INF/maven/com.riswit.dpt/data-access-object/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/WEB-INF/classes/com/riswit/dpt/data_access_object/DaoPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/WEB-INF/classes/com/riswit/dpt/data_access_object/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/WEB-INF/classes/com/riswit/dpt/data_access_object/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/data_access_object.war/WEB-INF/classes/com/riswit/dpt/data_access_object/StudentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/META-INF/maven/com.riswit.dpt/decorator/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/META-INF/maven/com.riswit.dpt/decorator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/WEB-INF/classes/com/riswit/dpt/decorator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/WEB-INF/classes/com/riswit/dpt/decorator/DecoratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/WEB-INF/classes/com/riswit/dpt/decorator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/WEB-INF/classes/com/riswit/dpt/decorator/RedShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/WEB-INF/classes/com/riswit/dpt/decorator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/decorator.war/WEB-INF/classes/com/riswit/dpt/decorator/ShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/META-INF/maven/com.riswit.dpt/facade/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/META-INF/maven/com.riswit.dpt/facade/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/WEB-INF/classes/com/riswit/dpt/facade/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/WEB-INF/classes/com/riswit/dpt/facade/FacadePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/WEB-INF/classes/com/riswit/dpt/facade/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/WEB-INF/classes/com/riswit/dpt/facade/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/WEB-INF/classes/com/riswit/dpt/facade/ShapeMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/facade.war/WEB-INF/classes/com/riswit/dpt/facade/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/META-INF/maven/com.riswit.dpt/factorypattern/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/META-INF/maven/com.riswit.dpt/factorypattern/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/WEB-INF/classes/com/riswit/dpt/factorypattern/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/WEB-INF/classes/com/riswit/dpt/factorypattern/FactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/WEB-INF/classes/com/riswit/dpt/factorypattern/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/WEB-INF/classes/com/riswit/dpt/factorypattern/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/WEB-INF/classes/com/riswit/dpt/factorypattern/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/factorypattern.war/WEB-INF/classes/com/riswit/dpt/factorypattern/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/META-INF/maven/com.riswit.dpt/filter/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/META-INF/maven/com.riswit.dpt/filter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/AndCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/CriteriaFemale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/CriteriaMale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/CriteriaPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/CriteriaSingle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/OrCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/filter.war/WEB-INF/classes/com/riswit/dpt/filter/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/META-INF/maven/com.riswit.dpt/flyweight/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/META-INF/maven/com.riswit.dpt/flyweight/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/WEB-INF/classes/com/riswit/dpt/flyweight/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/WEB-INF/classes/com/riswit/dpt/flyweight/FlyweightPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/WEB-INF/classes/com/riswit/dpt/flyweight/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/flyweight.war/WEB-INF/classes/com/riswit/dpt/flyweight/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/META-INF/maven/com.riswit.dpt/interpreter/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/META-INF/maven/com.riswit.dpt/interpreter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/WEB-INF/classes/com/riswit/dpt/interpreter/AndExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/WEB-INF/classes/com/riswit/dpt/interpreter/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/WEB-INF/classes/com/riswit/dpt/interpreter/InterpreterPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/WEB-INF/classes/com/riswit/dpt/interpreter/OrExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/interpreter.war/WEB-INF/classes/com/riswit/dpt/interpreter/TerminalExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/META-INF/maven/com.riswit.dpt/iterator/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/META-INF/maven/com.riswit.dpt/iterator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/WEB-INF/classes/com/riswit/dpt/iterator/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/WEB-INF/classes/com/riswit/dpt/iterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/WEB-INF/classes/com/riswit/dpt/iterator/IteratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/WEB-INF/classes/com/riswit/dpt/iterator/NameRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/WEB-INF/classes/com/riswit/dpt/iterator/NameRepository$NameIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/iterator.war/WEB-INF/classes/com/riswit/dpt/iterator/NameRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mediator.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mediator.war/META-INF/maven/com.riswit.dpt/mediator/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mediator.war/META-INF/maven/com.riswit.dpt/mediator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mediator.war/WEB-INF/classes/com/riswit/dpt/mediator/ChatRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mediator.war/WEB-INF/classes/com/riswit/dpt/mediator/MediatorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mediator.war/WEB-INF/classes/com/riswit/dpt/mediator/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/META-INF/maven/com.riswit.dpt/memento/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/META-INF/maven/com.riswit.dpt/memento/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/WEB-INF/classes/com/riswit/dpt/memento/CareTaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/WEB-INF/classes/com/riswit/dpt/memento/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/WEB-INF/classes/com/riswit/dpt/memento/MementoPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/memento.war/WEB-INF/classes/com/riswit/dpt/memento/Originator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/META-INF/maven/com.riswit.dpt/mvc/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/META-INF/maven/com.riswit.dpt/mvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/WEB-INF/classes/com/riswit/dpt/mvc/MVCPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/WEB-INF/classes/com/riswit/dpt/mvc/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/WEB-INF/classes/com/riswit/dpt/mvc/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/mvc.war/WEB-INF/classes/com/riswit/dpt/mvc/StudentView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/META-INF/maven/com.riswit.dpt/null-object/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/META-INF/maven/com.riswit.dpt/null-object/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/WEB-INF/classes/com/riswit/dpt/null_object/AbstractCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/WEB-INF/classes/com/riswit/dpt/null_object/CustomerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/WEB-INF/classes/com/riswit/dpt/null_object/NullCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/WEB-INF/classes/com/riswit/dpt/null_object/NullPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/null-object.war/WEB-INF/classes/com/riswit/dpt/null_object/RealCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/META-INF/maven/com.riswit.dpt/observer/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/META-INF/maven/com.riswit.dpt/observer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/WEB-INF/classes/com/riswit/dpt/observer/BinaryObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/WEB-INF/classes/com/riswit/dpt/observer/HexaObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/WEB-INF/classes/com/riswit/dpt/observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/WEB-INF/classes/com/riswit/dpt/observer/ObserverPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/WEB-INF/classes/com/riswit/dpt/observer/OctalObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/observer.war/WEB-INF/classes/com/riswit/dpt/observer/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/META-INF/maven/com.riswit.dpt/prototype/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/META-INF/maven/com.riswit.dpt/prototype/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/WEB-INF/classes/com/riswit/dpt/prototype1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/WEB-INF/classes/com/riswit/dpt/prototype1/PrototypePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/WEB-INF/classes/com/riswit/dpt/prototype1/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/WEB-INF/classes/com/riswit/dpt/prototype1/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/WEB-INF/classes/com/riswit/dpt/prototype1/ShapeCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/prototype.war/WEB-INF/classes/com/riswit/dpt/prototype1/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/META-INF/maven/com.riswit.dpt/proxy/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/META-INF/maven/com.riswit.dpt/proxy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/WEB-INF/classes/com/riswit/dpt/proxy/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/WEB-INF/classes/com/riswit/dpt/proxy/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/WEB-INF/classes/com/riswit/dpt/proxy/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/proxy.war/WEB-INF/classes/com/riswit/dpt/proxy/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/META-INF/maven/com.riswit.dpt/singleton/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/META-INF/maven/com.riswit.dpt/singleton/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/WEB-INF/classes/com/riswit/dpt/singleton/SingleObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/WEB-INF/classes/com/riswit/dpt/singleton/SingletonPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/WEB-INF/classes/com/riswit/dpt/singleton2/ClassicSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/singleton.war/WEB-INF/classes/com/riswit/dpt/singleton2/SingletonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/META-INF/maven/com.riswit.dpt/state/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/META-INF/maven/com.riswit.dpt/state/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/WEB-INF/classes/com/riswit/dpt/state/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/WEB-INF/classes/com/riswit/dpt/state/StartState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/WEB-INF/classes/com/riswit/dpt/state/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/WEB-INF/classes/com/riswit/dpt/state/StatePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/state.war/WEB-INF/classes/com/riswit/dpt/state/StopState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/META-INF/maven/com.riswit.dpt/strategy/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/META-INF/maven/com.riswit.dpt/strategy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/WEB-INF/classes/com/riswit/dpt/strategy/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/WEB-INF/classes/com/riswit/dpt/strategy/OperationAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/WEB-INF/classes/com/riswit/dpt/strategy/OperationMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/WEB-INF/classes/com/riswit/dpt/strategy/OperationSubstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/WEB-INF/classes/com/riswit/dpt/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/strategy.war/WEB-INF/classes/com/riswit/dpt/strategy/StrategyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/META-INF/maven/com.riswit.dpt/template/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/META-INF/maven/com.riswit.dpt/template/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/WEB-INF/classes/com/riswit/dpt/template/Cricket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/WEB-INF/classes/com/riswit/dpt/template/Football.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/WEB-INF/classes/com/riswit/dpt/template/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/template.war/WEB-INF/classes/com/riswit/dpt/template/TemplatePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/META-INF/maven/com.riswit.dpt/visitor/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/META-INF/maven/com.riswit.dpt/visitor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/ComputerPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/ComputerPartDisplayVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/ComputerPartVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundler/target/temp/visitor.war/WEB-INF/classes/com/riswit/dpt/visitor/VisitorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/TEST-com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/TEST-com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/builderpattern/target/builderpattern-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/builderpattern/target/builderpattern-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/factorypattern/target/factorypattern-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/factorypattern/target/factorypattern-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/prototype/target/prototype-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/prototype/target/prototype-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/singleton/target/singleton-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/singleton/target/singleton-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/business-delegate/target/business-delegate-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/business-delegate/target/business-delegate-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/composite-entity/target/composite-entity-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/composite-entity/target/composite-entity-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/data-access-object/target/data-access-object-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/data-access-object/target/data-access-object-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/front-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/other/front-controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/mvc/target/mvc-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/mvc/target/mvc-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/other/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/other/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/adapter/target/adapter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/adapter/target/adapter-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/bridge/target/bridge-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/bridge/target/bridge-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/composite/target/composite-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/composite/target/composite-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/decorator/target/decorator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/decorator/target/decorator-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/facade/target/facade-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/facade/target/facade-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/filter/target/filter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/filter/target/filter-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/flyweight/target/flyweight-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/flyweight/target/flyweight-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/proxy/target/proxy-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/proxy/target/proxy-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,69 +384,129 @@
     <ignored path="$PROJECT_DIR$/other/composite-entity/target/" />
     <ignored path="$PROJECT_DIR$/other/data-access-object/target/" />
     <ignored path="$PROJECT_DIR$/other/front-controller/target/" />
+    <ignored path="$PROJECT_DIR$/other/intercepting-filter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/HomeView.java">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/AuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/DebugFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Target.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#120#128#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/InterceptingFilterDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/StudentView.java">
+        <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/Dispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontControllerPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="398" column="61" selection-start-line="398" selection-start-column="61" selection-end-line="398" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -177,16 +535,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/behavioral/template/src/main/java/com/riswit/dpt/template/TemplatePatternDemo.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/pom.xml" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/info_visitor.md" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPart.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Keyboard.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Mouse.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Computer.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartVisitor.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartDisplayVisitor.java" />
-        <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/VisitorPatternDemo.java" />
         <option value="$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Monitor.java" />
         <option value="$PROJECT_DIR$/other/pom.xml" />
         <option value="$PROJECT_DIR$/other/mvc/pom.xml" />
@@ -219,15 +567,25 @@
         <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/StudentDaoImpl.java" />
         <option value="$PROJECT_DIR$/other/data-access-object/src/main/java/com/riswit/dpt/data_access_object/DaoPatternDemo.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/other/front-controller/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bundler/pom.xml" />
         <option value="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/info_front_controller.md" />
         <option value="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/HomeView.java" />
         <option value="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/StudentView.java" />
         <option value="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/Dispatcher.java" />
         <option value="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontController.java" />
         <option value="$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontControllerPatternDemo.java" />
+        <option value="$PROJECT_DIR$/other/front-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/info_intercepting_filter.md" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Filter.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/DebugFilter.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Target.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterChain.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterManager.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Client.java" />
+        <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/InterceptingFilterDemo.java" />
+        <option value="$PROJECT_DIR$/bundler/pom.xml" />
       </list>
     </option>
   </component>
@@ -256,7 +614,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,20 +635,20 @@
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-object" type="462c0819:PsiDirectoryNode" />
+              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-object" type="462c0819:PsiDirectoryNode" />
+              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-object" type="462c0819:PsiDirectoryNode" />
+              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -299,7 +656,7 @@
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-object" type="462c0819:PsiDirectoryNode" />
+              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -308,41 +665,51 @@
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access-object" type="462c0819:PsiDirectoryNode" />
+              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data_access_object" type="462c0819:PsiDirectoryNode" />
+              <item name="front_controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="front-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445182422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553539906109" />
     <property name="last_opened_file_path" value="F:/Tutorials/grokonez/AngularCRUD/SpringRestMySQL/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -351,21 +718,21 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java\pattern\designpatterntutorials\other\front-controller\src\main\java\com\riswit\dpt\front_controller" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\data-access-object\src\main\java\com\riswit\dpt\data_access_object" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\composite-entity\src\main\java\com\riswit\dpt\composite_entity" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\business-delegate\src\main\java\com\riswit\dpt\business_delegate" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\mvc\src\main\java\com\riswit\dpt\mvc" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="factoryPattern" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\java\pattern\designpatterntutorials\creational\singleton\src\main\java\com\riswit\dpt\singleton" />
       <recent name="F:\java\pattern\designpatterntutorials\creational\singleton" />
       <recent name="F:\java\pattern\designpatterntutorials\creational" />
       <recent name="F:\java\pattern\designpatterntutorials\structural" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factoryPattern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\pattern\designpatterntutorials\other\intercepting-filter\src\main\java\com\riswit\dpt\intercepting_filter" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\front-controller\src\main\java\com\riswit\dpt\front_controller" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\data-access-object\src\main\java\com\riswit\dpt\data_access_object" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\composite-entity\src\main\java\com\riswit\dpt\composite_entity" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\business-delegate\src\main\java\com\riswit\dpt\business_delegate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,7 +747,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrontControllerPatternDemo">
+  <component name="RunManager" selected="Application.InterceptingFilterDemo">
     <configuration name="BusinessDelegatePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.business_delegate.BusinessDelegatePatternDemo" />
       <module name="business-delegate" />
@@ -433,12 +800,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MVCPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.mvc.MVCPatternDemo" />
-      <module name="mvc" />
+    <configuration name="InterceptingFilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.intercepting_filter.InterceptingFilterDemo" />
+      <module name="intercepting-filter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.riswit.dpt.mvc.*" />
+          <option name="PATTERN" value="com.riswit.dpt.intercepting_filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -447,19 +814,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MVCPatternDemo" />
       <item itemvalue="Application.BusinessDelegatePatternDemo" />
       <item itemvalue="Application.CompositeEntityPatternDemo" />
       <item itemvalue="Application.DaoPatternDemo" />
       <item itemvalue="Application.FrontControllerPatternDemo" />
+      <item itemvalue="Application.InterceptingFilterDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterceptingFilterDemo" />
         <item itemvalue="Application.FrontControllerPatternDemo" />
         <item itemvalue="Application.DaoPatternDemo" />
         <item itemvalue="Application.CompositeEntityPatternDemo" />
         <item itemvalue="Application.BusinessDelegatePatternDemo" />
-        <item itemvalue="Application.MVCPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -747,7 +1114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553436636651</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="front controller pattern">
+      <created>1553445243932</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1553445243932</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -766,9 +1140,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1294" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28119937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28606158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -783,7 +1156,7 @@
       <window_info anchor="bottom" id="TODO" order="5" show_stripe_button="false" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39938557" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49675852" weight="0.40399384" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49675852" visible="true" weight="0.40399384" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49675852" weight="0.3686636" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032415" side_tool="true" weight="0.40399384" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32872504" />
@@ -911,7 +1284,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prototype pattern" />
     <MESSAGE value="added test abstract factory" />
     <MESSAGE value="adapter design pattern" />
     <MESSAGE value="bridge design pattern" />
@@ -936,7 +1308,8 @@
     <MESSAGE value="composite entity pattern" />
     <MESSAGE value="data access object pattern" />
     <MESSAGE value="update readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme.md" />
+    <MESSAGE value="front controller pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="front controller pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,102 +1342,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/info_visitor.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Keyboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/VisitorPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/ComputerPartDisplayVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/visitor/src/main/java/com/riswit/dpt/visitor/Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavioral/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="12" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/behavioral/visitor/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1368,13 +1645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="389" selection-start-line="389" selection-end-line="389" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/data-access-object/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1389,40 +1659,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/front-controller/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/HomeView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="51">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontControllerPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1434,6 +1677,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/FrontControllerPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/other/front-controller/src/main/java/com/riswit/dpt/front_controller/StudentView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1442,6 +1703,122 @@
             <element signature="e#91#92#0" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/front-controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="13" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/info_intercepting_filter.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/AuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/DebugFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#120#128#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/FilterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/InterceptingFilterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="398" column="61" selection-start-line="398" selection-start-column="61" selection-end-line="398" selection-end-column="61" />
         </state>
       </provider>
     </entry>
