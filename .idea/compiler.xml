@@ -33,6 +33,7 @@
         <module name="observer" />
         <module name="prototype" />
         <module name="proxy" />
+        <module name="service-locator" />
         <module name="singleton" />
         <module name="state" />
         <module name="strategy" />
