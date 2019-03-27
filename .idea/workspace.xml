@@ -2,51 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df69c492-6a3a-497d-9389-2d691fc09f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/other/service-locator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/InitialContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocatorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/info_service_locator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/transfer-object/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/TransferObjectPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/info_transfer_object.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/ChainOfResponsibility/target/ChainOfResponsibility-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/ChainOfResponsibility/target/ChainOfResponsibility-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/command/target/command-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/command/target/command-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/interpreter/target/interpreter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/interpreter/target/interpreter-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/iterator/target/iterator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/iterator/target/iterator-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/mediator/target/mediator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/mediator/target/mediator-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/memento/target/memento-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/memento/target/memento-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/null-object/target/null-object-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/null-object/target/null-object-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/observer/target/observer-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/observer/target/observer-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/state/target/state-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/state/target/state-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/strategy/target/strategy-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/strategy/target/strategy-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/template/target/template-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/template/target/template-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/visitor/target/visitor-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/visitor/target/visitor-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bundler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/TEST-com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/TEST-com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/builderpattern/target/builderpattern-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/builderpattern/target/builderpattern-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/factorypattern/target/factorypattern-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/factorypattern/target/factorypattern-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/prototype/target/prototype-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/prototype/target/prototype-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/singleton/target/singleton-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/creational/singleton/target/singleton-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/business-delegate/target/business-delegate-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/business-delegate/target/business-delegate-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/composite-entity/target/composite-entity-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/composite-entity/target/composite-entity-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/data-access-object/target/data-access-object-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/data-access-object/target/data-access-object-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/mvc/target/mvc-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/other/mvc/target/mvc-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/AbstractFactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/RoundedSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/abstractfactory-1.0-SNAPSHOT/WEB-INF/classes/com/riswit/dpt/abstractfactory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/TEST-com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/abstractfactory/target/surefire-reports/com.riswit.dpt.abstractfactory.AbstractFactoryPatternDemoTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/other/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/other/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/adapter/target/adapter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/adapter/target/adapter-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/bridge/target/bridge-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/bridge/target/bridge-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/composite/target/composite-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/composite/target/composite-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/decorator/target/decorator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/decorator/target/decorator-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/facade/target/facade-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/facade/target/facade-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/filter/target/filter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/filter/target/filter-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/flyweight/target/flyweight-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/flyweight/target/flyweight-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/proxy/target/proxy-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/structural/proxy/target/proxy-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,6 +71,7 @@
     <ignored path="$PROJECT_DIR$/other/front-controller/target/" />
     <ignored path="$PROJECT_DIR$/other/intercepting-filter/target/" />
     <ignored path="$PROJECT_DIR$/other/service-locator/target/" />
+    <ignored path="$PROJECT_DIR$/other/transfer-object/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,83 +84,46 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service.java">
+        <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service2.java">
+        <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/InitialContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Cache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="464">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocatorPatternDemo.java">
+        <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/TransferObjectPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="204">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -209,11 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/other/business-delegate/pom.xml" />
-        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessService.java" />
-        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/EJBService.java" />
-        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/JMSService.java" />
-        <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessLookUp.java" />
         <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegate.java" />
         <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/Client.java" />
         <option value="$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegatePatternDemo.java" />
@@ -252,7 +190,6 @@
         <option value="$PROJECT_DIR$/other/intercepting-filter/src/main/java/com/riswit/dpt/intercepting_filter/InterceptingFilterDemo.java" />
         <option value="$PROJECT_DIR$/other/service-locator/pom.xml" />
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/info_service_locator.md" />
-        <option value="$PROJECT_DIR$/bundler/pom.xml" />
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service.java" />
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service1.java" />
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service2.java" />
@@ -260,6 +197,12 @@
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Cache.java" />
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocator.java" />
         <option value="$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocatorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/other/transfer-object/pom.xml" />
+        <option value="$PROJECT_DIR$/bundler/pom.xml" />
+        <option value="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/info_transfer_object.md" />
+        <option value="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentVO.java" />
+        <option value="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentBO.java" />
+        <option value="$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/TransferObjectPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -288,6 +231,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,46 +248,6 @@
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepting-filter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepting_filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
@@ -385,15 +289,35 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service_locator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="transfer-object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="transfer-object" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterntutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpatterntutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="transfer-object" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553630020589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553715769907" />
     <property name="last_opened_file_path" value="F:/Tutorials/grokonez/AngularCRUD/SpringRestMySQL/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -402,21 +326,21 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java\pattern\designpatterntutorials\other\service-locator\src\main\java\com\riswit\dpt\service_locator" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\intercepting-filter\src\main\java\com\riswit\dpt\intercepting_filter" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\front-controller\src\main\java\com\riswit\dpt\front_controller" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\data-access-object\src\main\java\com\riswit\dpt\data_access_object" />
-      <recent name="F:\java\pattern\designpatterntutorials\other\composite-entity\src\main\java\com\riswit\dpt\composite_entity" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="factoryPattern" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\java\pattern\designpatterntutorials\creational\singleton\src\main\java\com\riswit\dpt\singleton" />
       <recent name="F:\java\pattern\designpatterntutorials\creational\singleton" />
       <recent name="F:\java\pattern\designpatterntutorials\creational" />
       <recent name="F:\java\pattern\designpatterntutorials\structural" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factoryPattern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\pattern\designpatterntutorials\other\transfer-object\src\main\java\com\riswit\dpt\transfer_object" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\service-locator\src\main\java\com\riswit\dpt\service_locator" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\intercepting-filter\src\main\java\com\riswit\dpt\intercepting_filter" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\front-controller\src\main\java\com\riswit\dpt\front_controller" />
+      <recent name="F:\java\pattern\designpatterntutorials\other\data-access-object\src\main\java\com\riswit\dpt\data_access_object" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,20 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServiceLocatorPatternDemo">
-    <configuration name="CompositeEntityPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.composite_entity.CompositeEntityPatternDemo" />
-      <module name="composite-entity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.riswit.dpt.composite_entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TransferObjectPatternDemo">
     <configuration name="DaoPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.data_access_object.DaoPatternDemo" />
       <module name="data-access-object" />
@@ -497,20 +408,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransferObjectPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riswit.dpt.transfer_object.TransferObjectPatternDemo" />
+      <module name="transfer-object" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riswit.dpt.transfer_object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CompositeEntityPatternDemo" />
       <item itemvalue="Application.DaoPatternDemo" />
       <item itemvalue="Application.FrontControllerPatternDemo" />
       <item itemvalue="Application.InterceptingFilterDemo" />
       <item itemvalue="Application.ServiceLocatorPatternDemo" />
+      <item itemvalue="Application.TransferObjectPatternDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransferObjectPatternDemo" />
         <item itemvalue="Application.ServiceLocatorPatternDemo" />
         <item itemvalue="Application.InterceptingFilterDemo" />
         <item itemvalue="Application.FrontControllerPatternDemo" />
         <item itemvalue="Application.DaoPatternDemo" />
-        <item itemvalue="Application.CompositeEntityPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -812,7 +736,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553540128150</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Service Locator Pattern">
+      <created>1553630210526</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1553630210526</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -832,7 +763,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1294" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29092383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29578605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -975,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adapter design pattern" />
     <MESSAGE value="bridge design pattern" />
     <MESSAGE value="filter design pattern" />
     <MESSAGE value="Compposite and decorator design pattern" />
@@ -1000,7 +930,8 @@
     <MESSAGE value="update readme.md" />
     <MESSAGE value="front controller pattern" />
     <MESSAGE value="Intercepting Filter Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intercepting Filter Pattern" />
+    <MESSAGE value="Service Locator Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service Locator Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1029,65 +960,10 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocatorPatternDemo.java</url>
-          <line>4</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/JMSService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessLookUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/business-delegate/src/main/java/com/riswit/dpt/business_delegate/BusinessDelegatePatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1410,13 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/service-locator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/intercepting-filter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1438,13 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="410" column="57" selection-start-line="410" selection-start-column="57" selection-end-line="410" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1452,10 +1314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service2.java">
+    <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
@@ -1465,10 +1327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service1.java">
+    <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Service2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="102">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
@@ -1487,19 +1349,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="527">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/other/service-locator/src/main/java/com/riswit/dpt/service_locator/ServiceLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
@@ -1508,6 +1368,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/transfer-object/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/service-locator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/info_transfer_object.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/StudentBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/transfer-object/src/main/java/com/riswit/dpt/transfer_object/TransferObjectPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

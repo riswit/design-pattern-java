@@ -38,6 +38,7 @@
         <module name="state" />
         <module name="strategy" />
         <module name="template" />
+        <module name="transfer-object" />
         <module name="visitor" />
       </profile>
     </annotationProcessing>
