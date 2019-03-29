@@ -1,6 +1,10 @@
 com\riswit\dpt\prototype1\Circle.class
+com\riswit\dpt\prototype2\Apple.class
 com\riswit\dpt\prototype1\Shape.class
-com\riswit\dpt\prototype1\ShapeCache.class
+com\riswit\dpt\prototype2\SmartPhone.class
 com\riswit\dpt\prototype1\Rectangle.class
 com\riswit\dpt\prototype1\PrototypePatternDemo.class
 com\riswit\dpt\prototype1\Square.class
+com\riswit\dpt\prototype1\ShapeCache.class
+com\riswit\dpt\prototype2\PrototyPatternExample.class
+com\riswit\dpt\prototype2\Samsung.class
